@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1787039612234526894
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3158209658184654459}
+  - component: {fileID: 8596819681833843871}
+  - component: {fileID: 5813460651842669442}
+  - component: {fileID: 5123000827207035647}
+  - component: {fileID: 6546666626568059400}
+  m_Layer: 9
+  m_Name: FourCorners
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3158209658184654459
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1787039612234526894}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2.8744762, y: 3.7377288, z: -12.508503}
+  m_LocalScale: {x: 0.5997, y: 0.5997, z: 0.5997}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &8596819681833843871
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1787039612234526894}
+  m_Mesh: {fileID: -651779020206197463, guid: 9c0db5809df9f5442bd213129de27a97, type: 3}
+--- !u!23 &5813460651842669442
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1787039612234526894}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: -5414700128154265978, guid: 9c0db5809df9f5442bd213129de27a97, type: 3}
+  - {fileID: 2100000, guid: aa434fe29bc5e1143817c9f765e6a489, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &5123000827207035647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1787039612234526894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 032801a184d62b74f98955e0c3f8fc32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Panel: {fileID: 1787039612234526894}
+  SpringTrapPanel: 0
+  SpikedBallTrapPanel: 0
+  TrapTriggerPanel: 0
+  BlockPanel: 0
+  Bridge: 0
+  SmallEnemyPanel: 0
+  BigEnemyPanel: 0
+  MovementBoostPanel: 0
+  ShieldBoostPanel: 0
+  PushBoostPanel: 0
+  ConePanel: 0
+  HolePanel: 0
+  PlayerPanel: 0
+  GoalPanel: 0
+  IsEnemyGoal: 0
+  BallPanel: 0
+  Type: 4
+  Corners: []
+  DetectedWestNorth: 0
+  DetectedWestSouth: 0
+  DetectedEastNorth: 0
+  DetectedEastSouth: 0
+  NumberOfCorners: 0
+--- !u!65 &6546666626568059400
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1787039612234526894}
+  m_Material: {fileID: 13400000, guid: 82193c7b1eba305499e1df317555bf1f, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.6691613, y: 0.7356642, z: 1.668767}
+  m_Center: {x: 0, y: 0, z: 0.00000014901161}

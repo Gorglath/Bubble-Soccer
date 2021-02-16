@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac1bab1d268cbb344b49bce6a2b0cfb1, type: 3}
+  m_Name: DefaultTileSet
+  m_EditorClassIdentifier: 
+  Block: {fileID: 1918069973253642231, guid: 9888d39d5cff26341a17003b738f099b, type: 3}
+  Bridge: {fileID: 3135441350485076569, guid: 80c699a09ef9faa4cbd15912c6f95dec, type: 3}
+  MiddleCenter: {fileID: 2947212559865795760, guid: ca6425e5db173c249b849874e346e192,
+    type: 3}
+  StartingOrEnding: {fileID: 3783596048495583346, guid: 7691b90cd4489ab4a9b1c4125d3edd61,
+    type: 3}
+  TopCenter: {fileID: 6572711222032038410, guid: 22589f8f2c8e1244d97016ed6594b79c,
+    type: 3}
+  TopLeft: {fileID: 8879456553803809136, guid: bcd6a4c3b79118f4bb44d4c3779cb6eb, type: 3}
+  SmallEnemy: {fileID: 1051264489421338389, guid: 8bbf2f102127fe048be9f52dbee5ba40,
+    type: 3}
+  BigEnemy: {fileID: 1051264489421338389, guid: 8bbf2f102127fe048be9f52dbee5ba40,
+    type: 3}
+  SpringTrap: {fileID: 2753776420387739629, guid: e5bbf3a9ddd66ff4297348bc73e17593,
+    type: 3}
+  SpikedBallTrap: {fileID: 4431006813695921422, guid: 697ede074f6be234b9287782f6eae8cf,
+    type: 3}
+  TrapButton: {fileID: 1897550246892640724, guid: e8b9c88ba08fd0e49a8c5f01a47e9c56,
+    type: 3}
+  MovementBoost: {fileID: 624892853306227583, guid: 30f7f69ad92aee844b4d5879fa292242,
+    type: 3}
+  ShieldBoost: {fileID: 5366296556366724945, guid: 6b2ab7fb387ffff4fbcb220d3bd440eb,
+    type: 3}
+  PushBoost: {fileID: 7197508251193591504, guid: e4b110a221c1ffa40ab8693d6c19e3d2,
+    type: 3}
+  Cone: {fileID: 7916653353348641173, guid: 3209cc27512ca6a4184bbbf7cbfc70b6, type: 3}
+  Hole: {fileID: 5330753054286749653, guid: c3509c6cb4499dd459a31c8b128546bb, type: 3}
+  Player: {fileID: 506567461123034131, guid: 5e7b23d90a225964d92b01d5009d5bf2, type: 3}
+  Goal: {fileID: 3762449380706762020, guid: e389ee2be5158e148a55822c7456f755, type: 3}
+  Ball: {fileID: 5570640502522501161, guid: 978f852a59d1ac64baa87eef6bdd6ba5, type: 3}
+  Shadow: {fileID: 8058869751458198296, guid: f9c2234bfbdd1df4d82916317af796a1, type: 3}
+  FenceColor: {r: 0.8113208, g: 0.8074938, b: 0.8074938, a: 0}
+  WallColor: {r: 0.121568635, g: 0.10196079, b: 0.098039225, a: 0}
+  GroundLightColor: {r: 0.36734584, g: 0.9150943, b: 0.20287468, a: 0}
+  GroundDarkColor: {r: 0.22535543, g: 0.8207547, b: 0.17421682, a: 0}

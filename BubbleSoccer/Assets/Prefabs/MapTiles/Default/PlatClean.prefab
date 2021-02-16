@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2947212559865795760
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4319991467760080271}
+  - component: {fileID: 1871934589787365922}
+  - component: {fileID: 3134673305135848500}
+  - component: {fileID: 2947212559865795767}
+  - component: {fileID: 8674814907185040134}
+  m_Layer: 9
+  m_Name: PlatClean
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4319991467760080271
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2947212559865795760}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.01, y: 0.91, z: -2}
+  m_LocalScale: {x: 0.5997, y: 0.5997, z: 0.5997}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &1871934589787365922
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2947212559865795760}
+  m_Mesh: {fileID: -4030072872466997247, guid: 6d22994113e5f5740af5309bca0e0bde, type: 3}
+--- !u!23 &3134673305135848500
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2947212559865795760}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: aa434fe29bc5e1143817c9f765e6a489, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &2947212559865795767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2947212559865795760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 032801a184d62b74f98955e0c3f8fc32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Panel: {fileID: 0}
+  SpringTrapPanel: 0
+  SpikedBallTrapPanel: 0
+  TrapTriggerPanel: 0
+  BlockPanel: 0
+  Bridge: 0
+  SmallEnemyPanel: 0
+  BigEnemyPanel: 0
+  MovementBoostPanel: 0
+  ShieldBoostPanel: 0
+  PushBoostPanel: 0
+  ConePanel: 0
+  HolePanel: 0
+  PlayerPanel: 0
+  GoalPanel: 0
+  IsEnemyGoal: 0
+  BallPanel: 0
+  Type: 0
+  Corners:
+  - {fileID: 285867872161128451, guid: d02643cd585900947b96b06029550e99, type: 3}
+  - {fileID: 5533446580539065524, guid: d267ab354f4113444b27123d8423e735, type: 3}
+  - {fileID: 3154783313524450621, guid: b48aa4a00fea97b488289aaf8987dbd4, type: 3}
+  - {fileID: 1787039612234526894, guid: 9c1aea8cd8cb9ee45be03dc6bed227b2, type: 3}
+  - {fileID: 8692952546305854242, guid: cf9bbea3740c84843a130262d5c5467f, type: 3}
+  DetectedWestNorth: 0
+  DetectedWestSouth: 0
+  DetectedEastNorth: 0
+  DetectedEastSouth: 0
+  NumberOfCorners: 0
+--- !u!65 &8674814907185040134
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2947212559865795760}
+  m_Material: {fileID: 13400000, guid: 82193c7b1eba305499e1df317555bf1f, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.6690699, y: 0.6866918, z: 1.6686718}
+  m_Center: {x: 0, y: 0, z: 0}
